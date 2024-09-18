@@ -4,7 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>3-4</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <style>
+        *{
+            font-family: "inter", sans-serif;
+        }
       body {
         margin: 0;
         font-family: Arial, sans-serif;
@@ -37,6 +43,7 @@
         margin: 0;
         display: flex;
         align-items: center;
+        padding: 5px;
       }
 
       .profile .v-badge {
@@ -44,7 +51,64 @@
         height: 20px;
         margin-left: 8px;
         margin-top: 8px;
-        vertical-align: middle;
+      }
+      
+      .v-badge{
+        margin-top: 5px;
+      }
+      .serangkai img{
+        width: 15px;
+        height: 15px;
+      }
+
+      .serangkai{
+        display: flex;
+        margin-left: 5px;
+        padding: 20px;
+        margin-top: -20px;
+      }
+
+      .KThemes{
+        display: flex;
+        margin-right: 15px;
+      }
+
+      .address{
+        display: flex;
+        margin-right: 15px;
+      }
+
+      .address img{
+        margin-right: 2px;
+      }
+
+      .account{
+        display: flex;
+        margin-right: 15px;
+      }
+
+      .account img{
+        margin-right: 3px;
+      }
+      
+      .right{
+        display: flex;
+        gap: 10px;
+      }
+      .right img{
+        width: 10px;
+        height: 10px;
+      }
+
+      .left{
+        display: flex;
+        margin-left: 500px;
+        gap: 10px;
+      }
+
+      .left img{
+        width: 17px;
+        height: 17px;
       }
     </style>
   </head>
@@ -58,7 +122,72 @@
         </h2>
       </div>
 
-      <div class=""
+      <div class="serangkai">
+        <div class="KThemes">
+            <img src="">
+            <span>KeenThemes</span>
+        </div>
+
+        <div class="address">
+            <img src="maps-and-flags.png">
+            <span>SF, Bay Area</span>
+        </div>
+
+        <div class="account">
+            <img src="mail.png">
+            <span>jenny@kteam.com</span>
+        </div>
+      </div>
+
+      <div class="kanan-kiri">
+      <div class="right">
+        <div class="profiles">
+            <span>Profiles</span>
+            <img src="down.png">
+        </div>
+
+        <div class="projects">
+            <span>Projects</span>
+            <img src="down.png">
+        </div>
+
+        <div class="works">
+            <span style="color: blue;"><u style="color: blue;">Works</u></span>
+        </div>
+
+        <div class="teams">
+            <span>Teams</span>
+        </div>
+
+        <div class="network">
+            <span>Network</span>
+        </div>
+
+        <div class="activity">
+            <span>Activity</span>
+        </div>
+
+        <div class="more">
+            <span>More</span>
+            <img src="down.png"
+        </div>
+      </div>
+
+      <div class="left">
+        <div class="connect">
+            <img src="users.png">
+            <span>Connect</span>
+        </div>
+
+        <div class="komen">
+            <img src="message.png">
+        </div>
+
+        <div class="threedot">
+            <img src="dots.png">
+        </div>
+      </div>
+      </div>
     </div>
   </body>
 </html>
