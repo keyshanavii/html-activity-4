@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tasks Overview</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        font-family: "inter", sans-serif;
+      }
+      .container {
+        width: 400px;
+        box-shadow: 0 2px 5px gray;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        margin: auto;
+      }
+
+      .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .header img {
+        width: 20px;
+        height: 20px;
+        border-radius: 5px;
+      }
+
+      .header h1 {
+        margin-bottom: -15px;
+      }
+
+      .wrapper-task {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+      }
+
+      .wrapper-task p {
+        margin: 5px;
+      }
+
+      .task {
+        display: flex;
+      }
+
+      .task img {
+        width: 40px;
+        height: 40px;
+        border-radius: 5px;
+        margin-top: 7px;
+        margin-bottom: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div>
+          <h1>Tasks Overview</h1>
+          <p>Pending 10 tasks</p>
+        </div>
+        <div class="icon-right">
+          <img src="more.png" alt="" />
+        </div>
+      </div>
+
+      <div class="wrapper-task">
+        <div class="task">
+          <img src="icon1.jpg" />
+          <div>
+            <p><b>Project Briefing</b></p>
+            <p>Project Manager</p>
+          </div>
+        </div>
+        <div class="task">
+          <img src="icon2.jpg" />
+          <div>
+            <p><b>Desaign</b></p>
+            <p>Art Director</p>
+          </div>
+        </div>
+        <div class="task">
+          <img src="icon3.jpg" />
+          <div>
+            <p><b>Functional Logics</b></p>
+            <p>Lead Developer</p>
+          </div>
+        </div>
+        <div class="task">
+          <img src="icon-4.jpg" />
+          <div>
+            <p><b>Development</b></p>
+            <p>DevOps</p>
+          </div>
+        </div>
+        <div class="task">
+          <img src="icon5.jpg" />
+          <div>
+            <p><b>Testing</b></p>
+            <p>QA Managers</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
